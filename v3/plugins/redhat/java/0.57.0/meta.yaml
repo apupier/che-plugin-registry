@@ -18,7 +18,7 @@ spec:
       volumes:
       - mountPath: "/home/theia/.m2"
         name: m2
-      - mountPath: "/home/theia/.theia/globalStorage"
+      - mountPath: "/home/theia/home/theia"
         name: vscodeglobalstorage
   extensions:
     - https://download.jboss.org/jbosstools/vscode/3rdparty/vscode-java-debug/vscode-java-debug-0.24.0.vsix

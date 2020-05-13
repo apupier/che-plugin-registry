@@ -16,7 +16,7 @@ spec:
     name: vscode-camelk
     memoryLimit: "1G"
     volumes:
-      - mountPath: "/home/theia/.theia/globalStorage"
+      - mountPath: "/home/theia/home/theia"
         name: vscodeglobalstorage
   extensions:
   - https://download.jboss.org/jbosstools/vscode/stable/vscode-camelk/vscode-camelk-0.0.13-403.vsix
